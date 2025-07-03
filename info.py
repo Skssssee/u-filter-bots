@@ -18,7 +18,7 @@ def is_enabled(value, default):
 SESSION = environ.get("SESSION", "Media_search")
 API_ID = int(environ.get("API_ID", "20569947"))
 API_HASH = environ.get("API_HASH", "d643430b289378849c13f2bdccb2de55")
-BOT_TOKEN = environ.get("BOT_TOKEN", "7663321852:AAHy3eKyCGdpsNMzXMqpXxJJGIc_BLz-Fp0")
+BOT_TOKEN = environ.get("BOT_TOKEN", "7784747674:AAFxPbFYpNyVx1uZywaovIskfoYuBdJVNNM")
 PORT = environ.get("PORT", "8082")
 
 # Owners
@@ -41,8 +41,8 @@ CHANNELS = [
 AUTH_CHANNEL = int(environ.get("AUTH_CHANNEL", "-1002821475759"))
 AUTH_REQ_CHANNEL = int(environ.get("AUTH_REQ_CHANNEL", "-1002837276813"))
 LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002684140912"))
-LOG_API_CHANNEL = int(environ.get("LOG_API_CHANNEL", "-1002621610885"))
-LOG_VR_CHANNEL = int(environ.get("LOG_VR_CHANNEL", "-1002295313217"))
+LOG_API_CHANNEL = int(environ.get("LOG_API_CHANNEL", "-1002584596532"))
+LOG_VR_CHANNEL = int(environ.get("LOG_VR_CHANNEL", "-1002759029438"))
 
 # MongoDB
 DATABASE_URI = environ.get("DATABASE_URI", "mongodb+srv://cisepad433:Des4iwHUI4wd74e4@cluster0.t29ydaf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
