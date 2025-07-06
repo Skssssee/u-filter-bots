@@ -38,7 +38,7 @@ CHANNELS = [
 ]
 
 # ForceSub Channel & Log Channels
-AUTH_CHANNEL = int(environ.get("AUTH_CHANNEL", "0"))
+AUTH_CHANNEL = int(environ.get("AUTH_CHANNEL", "-1002759029438"))
 AUTH_REQ_CHANNEL = int(environ.get("AUTH_REQ_CHANNEL", "-1002837276813"))
 LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002295313217"))
 LOG_API_CHANNEL = int(environ.get("LOG_API_CHANNEL", "-1002584596532"))
@@ -64,8 +64,8 @@ REQUEST_CHANNEL = (
 MOVIE_UPDATE_CHANNEL = int(environ.get("MOVIE_UPDATE_CHANNEL", "-1001864434358"))
 
 # Added Link Here Not Id
-SUPPORT_CHAT = environ.get("SUPPORT_CHAT", "https://t.me/cinexhub_official")
-MOVIE_GROUP_LINK = environ.get("MOVIE_GROUP_LINK", "https://t.me/cinexhub")
+SUPPORT_CHAT = environ.get("SUPPORT_CHAT", "")
+MOVIE_GROUP_LINK = environ.get("MOVIE_GROUP_LINK", " ")
 
 # Verification
 IS_VERIFY = is_enabled("IS_VERIFY",False)
