@@ -64,7 +64,7 @@ REQUEST_CHANNEL = (
 MOVIE_UPDATE_CHANNEL = int(environ.get("MOVIE_UPDATE_CHANNEL", "-1001864434358"))
 
 # Added Link Here Not Id
-SUPPORT_CHAT = environ.get("SUPPORT_CHAT", "")
+SUPPORT_CHAT = environ.get("SUPPORT_CHAT", "https://t.me/cinexhub")
 MOVIE_GROUP_LINK = environ.get("MOVIE_GROUP_LINK", "https://t.me/cinexhub_official")
 
 # Verification
@@ -173,7 +173,7 @@ if "DYNO" in environ:
     ON_HEROKU = True
 else:
     ON_HEROKU = False
-URL = environ.get("FQDN", "https://particular-marita-ty667-f373fadb.koyeb.app/")
+URL = environ.get("FQDN", "https://regular-vivien-ty667-876819cc.koyeb.app/")
 
 # Commands
 admin_cmds = [
