@@ -53,7 +53,7 @@ FILES_DATABASE = environ.get("FILES_DATABASE", "mongodb+srv://shek899m:LYeq7Xlje
 COLLECTION_NAME = environ.get("COLLECTION_NAME", "Cluster0")
 
 # Other Channel's
-SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", "-1002269338964"))
+SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", "-1002840767253"))
 DELETE_CHANNELS = int(environ.get("DELETE_CHANNELS", "0"))
 request_channel = environ.get("REQUEST_CHANNEL", "-1002684140912")
 REQUEST_CHANNEL = (
@@ -64,8 +64,8 @@ REQUEST_CHANNEL = (
 MOVIE_UPDATE_CHANNEL = int(environ.get("MOVIE_UPDATE_CHANNEL", "-1002837276813"))
 
 # Added Link Here Not Id
-SUPPORT_CHAT = environ.get("SUPPORT_CHAT", "https://t.me/cinexhub_official")
-MOVIE_GROUP_LINK = environ.get("MOVIE_GROUP_LINK", "https://t.me/cinexhub_official")
+SUPPORT_CHAT = environ.get("SUPPORT_CHAT", "https://t.me/cinexhubs")
+MOVIE_GROUP_LINK = environ.get("MOVIE_GROUP_LINK", "https://t.me/cinex_hub")
 
 # Verification
 IS_VERIFY = is_enabled("IS_VERIFY",False)
