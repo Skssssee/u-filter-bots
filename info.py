@@ -24,10 +24,10 @@ PORT = environ.get("PORT", "8082")
 # Owners
 ADMINS = [
     int(admin) if id_pattern.search(admin) else admin
-    for admin in environ.get("ADMINS", "8264213982").split()
+    for admin in environ.get("ADMINS", "6804892450").split()
 ]
 OWNER_USERNAME = environ.get(
-    "OWNER_USERNAME", "noob_huuuu"
+    "OWNER_USERNAME", "Aman_proo"
 )  # without @ or https://t.me/
 USERNAME = environ.get("USERNAME", "")  # ADMIN USERNAME
 
@@ -40,7 +40,7 @@ CHANNELS = [
 # ForceSub Channel & Log Channels
 AUTH_CHANNEL = int(environ.get("AUTH_CHANNEL", "0"))
 AUTH_REQ_CHANNEL = int(environ.get("AUTH_REQ_CHANNEL", "0"))
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002295313217"))
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1003904202115"))
 LOG_API_CHANNEL = int(environ.get("LOG_API_CHANNEL", "-1002584596532"))
 LOG_VR_CHANNEL = int(environ.get("LOG_VR_CHANNEL", "-1002759029438"))
 
@@ -173,7 +173,7 @@ if "DYNO" in environ:
     ON_HEROKU = True
 else:
     ON_HEROKU = False
-URL = environ.get("FQDN", "maximum-johnette-ty667-039740f0.koyeb.app/")
+URL = environ.get("FQDN", "https://maximum-johnette-ty667-039740f0.koyeb.app/")
 
 # Commands
 admin_cmds = [
